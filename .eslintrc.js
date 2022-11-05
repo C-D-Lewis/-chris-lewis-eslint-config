@@ -6,6 +6,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    mocha: true,
   },
   rules: {
     'no-multi-spaces': 0,
