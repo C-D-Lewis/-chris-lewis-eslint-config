@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test project for parent project",
+  "main": "example.js",
+  "author": "Chris Lewis",
+  "eslintConfig": {
+    "extends": "@chris-lewis/eslint-config"
+  },
+  "devDependencies": {
+    "@chris-lewis/eslint-config": "file:..",
+    "eslint": "^8.26.0"
+  }
+}
